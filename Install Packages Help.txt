@@ -1,0 +1,62 @@
+
+
+After install anaconda you have to run anaconda prompt and run following codes
+
+#1: Check conda and python version
+
+conda -V
+python3 --version
+
+#2: Update coda version
+
+conda update conda
+
+#3: list of environment
+
+conda info -e
+
+#4: create virtual environment with conda
+
+conda create -n yourenvname python=x.x
+
+#5: active your environment
+
+activate yourenvname(your virtual environmental)
+
+for deactivate you have to use conda deactivate
+
+#6:remove virtual environment
+
+conda remove -n yourenvname -all
+
+#7:
+
+conda install pip
+pip install --upgrade pip
+
+
+#8:
+conda = pip
+pip install tensorflow
+pip install matplotlib
+pip install keras
+pip install numpy
+
+
+
+#9:package list
+conda list
+
+#10:
+conda install -c conda-forge opencv
+
+conda install -c anaconda pillow
+
+
+#11  others
+
+pip install torchinfo
+
+pip install tqdm
+
+conda install ipykernel
